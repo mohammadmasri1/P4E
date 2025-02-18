@@ -1,0 +1,35 @@
+/* Custom styles for Lab Attendance System */
+
+/* Iframe container */
+.ratio-16x9 {
+    border-radius: 0.375rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Error page styling */
+.error-template {
+    padding: 40px 15px;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* General improvements */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Card improvements */
+.card {
+    border: 1px solid var(--bs-border-color);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
