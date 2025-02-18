@@ -1,8 +1,0 @@
-[build]
-  publish = "."
-  command = "echo 'Build command running'"
-
-[[redirects]]
-  from = "/*"
-  to = "/webstie.html"
-  status = 200
